@@ -74,7 +74,8 @@
     const idYoutube = valorInput.substring(32);
     console.log({idYoutube, valorInput});
 
-    let   body = document.querySelector('#body');
+    // Corregir la selección del body
+    let body = document.body;
     body.classList.add("loaderBody");
 
     setTimeout(()=> {
@@ -90,5 +91,5 @@
   });
 </script>
 
-</body>
+  </body>
 </html>
